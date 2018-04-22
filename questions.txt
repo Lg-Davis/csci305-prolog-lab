@@ -1,0 +1,87 @@
+1.   father(X, 'Queen Elizabeth II').
+     X = 'King George VI'.
+
+2.   grandmother(X, 'Queen Elizabeth II').
+     X = 'Queen Mary'.
+
+3.   grandfather(X, 'Queen Elizabeth II').
+     X = 'King George V'.
+
+4.   grandparent(X, 'Queen Elizabeth II').
+     X = 'King George V';
+     X = 'Queen Marry'.
+
+5.   grandparent('Queen Elizabeth II', X).
+     X = 'Prince William';
+     X = 'Prince Henry'.
+
+6.   sibling(X, 'Queen Elizabeth II').
+     X = 'Princess Margaret'.
+
+7.   son(X, 'Queen Elizabeth II').
+     X = 'Prince Charles';
+     X = 'Prince Andrew';
+     X = 'Prince Edward'.
+
+8.   daughter(X, 'Queen Elizabeth II').
+     X = 'Princess Anne'.
+
+9.   aunt(X, 'Lady Diana Spencer').
+     FALSE.
+
+10.  spouse(X, 'Prince William').
+     X = 'Catherine Middleton'.
+
+11.  ancestor(X, 'Prince Henry').
+     X = 'Prince Charles' ;
+     X = 'Lady Diana Spencer' ;
+     X = 'Prince Albert' ;
+     X = 'Queen Victoria' ;
+     X = 'King Edward VII' ;
+     X = 'Princess Alexandra of Denmark' ;
+     X = 'King George V' ;
+     X = 'Queen Mary' ;
+     X = 'King George VI' ;
+     X = 'Lady Elizabeth Bowes-Lyon' ;
+     X = 'Queen Elizabeth II' ;
+     X = 'Prince Philip' ;
+
+12.  descendant('Queen Victoria', Y).
+     FALSE.
+
+13.  older('Prince Henry', 'Prince William').
+     FALSE.
+
+14.  older(X, 'Queen Elizabeth II').
+     X = 'Queen Victoria' ;
+     X = 'Princess Alexandra of Denmark' ;
+     X = 'Queen Mary' ;
+     X = 'Mrs Simpson' ;
+     X = 'Lady Elizabeth Bowes-Lyon' ;
+     X = 'Prince Albert' ;
+     X = 'King Edward VII' ;
+     X = 'King George V' ;
+     X = 'King Edward VIII' ;
+     X = 'King George VI' ;
+     X = 'Prince Philip' ;
+
+15.  regentWhenBorn(X, 'Queen Elizabeth II').
+     X = 'King George V'.
+
+16.
+
+17.
+
+18. I did enjoy this lab, it was much more comprehendible than the past labs assigned. This lab asked simple operation which was fun to think through quickly using my knowledge about family trees. Overall, this was my favorite lab of the semester and it was a very good introduction into prolog! 
+
+19. I roughly spent 4+ hours on this lab
+
+20.
+
+EC1. cousin(X, 'Prince Charles').
+     X = 'Viscount Linley'
+     X = 'Lady Sarah Chatto'
+
+EC2. cousin('Prince Charles', X).
+     X = 'Viscount Linley'
+     X = 'lady Sarah Chatto'

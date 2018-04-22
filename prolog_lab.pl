@@ -113,4 +113,27 @@ descendent(A, B) :-
   child(A, X),
   descendent(X, B).
 
-%older Rule
+% Older Rule
+older(X, Y) :-
+  born(X, BirthYearX),
+  born(Y, BirthYearY),
+  BirthYearX < BirthYearY.
+
+% Younger Rule
+younger(X, Y) :-
+  born(X, BirthYearX),
+  born(Y, BirthYearY),
+  BirthYearX > BirthYearY.
+
+
+% regent when botn Rule
+regentWhenBorn(K, C) :-
+  born(C, Year),
+  reigned(K, Start, End),
+  Year >= Start,
+  Year =< End.
+
+cousin(X, Y) :-
+  parent(Parent1, X),
+  parent(Parent2, Y),
+  sibling(Parent1, Parent2).
