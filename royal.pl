@@ -118,3 +118,36 @@ parent('Antony Armstrong-Jones', 'Viscount Linley').
 parent('Princess Margaret', 'Viscount Linley').
 parent('Antony Armstrong-Jones', 'Lady Sarah Chatto').
 parent('Princess Margaret', 'Lady Sarah Chatto').
+
+
+%perosnal family testing
+male('Ryan').
+male('Logan').
+male('Dale').  % Uncle by blood, son of sandy
+male('Jimmy'). % son of sandy, married to sammy (Marriage Aunt)
+male('Dan').  %Unlce by marriage, married to cindy
+male('Tom').
+
+female('Cindy').
+female('Sammy').
+female('Kim').
+female('Bre').
+female('Sandy').
+
+married('Jimmy', 'Sammy').
+married('Ryan', 'Kim').
+married('Cindy', 'Dan').
+
+parent('Tom', 'Ryan').
+parent('Sandy', 'Cindy').
+parent('Sandy', 'Jimmy').
+parent('Sandy', 'Dale').
+parent('Sandy', 'Kim').
+parent('Ryan', 'Logan').
+parent('Kim', 'Logan').
+parent('Ryan', 'Bre').
+parent('Kim', 'Bre').
+
+born('Logan', 1997).
+born('Kim', 1966).
+born('Ryan', 1965).
