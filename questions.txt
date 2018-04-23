@@ -68,15 +68,15 @@
 15.  regentWhenBorn(X, 'Queen Elizabeth II').
      X = 'King George V'.
 
-16.
+16.  One aspect about prolog that I enjoyed was if you had easily declarative formal logic statements, prolog made solving these problems a breeze. In the aspect of this lab, prolog worked great! probably the best language to use for such a problem. I also envoys query operations in prolog, I have never done anything like it before!
 
-17.
+17.  An issue I had with prolog was that I had a lot of trouble with setting up of the project. In the beginning, I would save my file and reload the file in the prolog terminal and nothing would happen/change. I worked my way around this, but overall prolog has more compiling issues that most other languages that I have learned.
 
-18. I did enjoy this lab, it was much more comprehendible than the past labs assigned. This lab asked simple operation which was fun to think through quickly using my knowledge about family trees. Overall, this was my favorite lab of the semester and it was a very good introduction into prolog! 
+18. I did enjoy this lab, it was much more comprehendible than the past labs assigned. This lab asked simple operation which was fun to think through quickly using my knowledge about family trees. Overall, this was my favorite lab of the semester and it was a very good introduction into prolog!
 
 19. I roughly spent 4+ hours on this lab
 
-20.
+20. Prolog is useful for a limited amount of problems and anywhere else it is useless compared to other languages that can solve problems in a much better and efficient way. I am glad that I have learned the very basics of Prolog, but I do not see myself in the future using the language of Prolog. A project that I could see prolog being useful is possibly programming simple algorithms for hardware operations.
 
 EC1. cousin(X, 'Prince Charles').
      X = 'Viscount Linley'
